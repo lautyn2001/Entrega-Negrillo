@@ -1,11 +1,11 @@
-import NavBar from './components/NavBar'
-import ItemListContainer from './components/ItemListContainer'
+import NavBar from "./components/NavBar"
+import ItemListContainer from "./components/ItemListContainer"
 
 function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer greeting="¡Bienvenido a mi tienda React!" />
+      <ItemListContainer greeting="¡Bienvenido a mi tienda!" />
     </>
   )
 }

@@ -1,9 +1,9 @@
-import CartWidget from './CartWidget'
+import CartWidget from "./CartWidget"
 
 function NavBar() {
   return (
     <nav style={styles.nav}>
-      <h2 style={styles.title}>Mi Tienda</h2>
+      <h2 style={styles.title}>Star Wars Shop</h2>
       <ul style={styles.menu}>
         <li>Inicio</li>
         <li>Productos</li>
@@ -15,7 +15,7 @@ function NavBar() {
 }
 
 const styles = {
-  nav: { display: 'flex', justifyContent: 'space-between', padding: '10px', background: '#333', color: 'white' },
+  nav: { display: 'flex', justifyContent: 'space-between', padding: '10px', background: '#0c0c0cff', color: 'yellow' },
   title: { margin: 0 },
   menu: { display: 'flex', gap: '20px', listStyle: 'none', alignItems: 'center' }
 }

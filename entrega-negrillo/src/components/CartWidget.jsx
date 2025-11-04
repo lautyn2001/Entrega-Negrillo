@@ -1,7 +1,7 @@
 function CartWidget() {
   return (
     <div style={{ cursor: 'pointer' }}>
-      🛒 <span>3</span>
+      🛒 <span></span>
     </div>
   )
 }
