@@ -1,9 +1,9 @@
 function CartWidget() {
   return (
-    <div style={{ cursor: 'pointer' }}>
-      🛒 <span></span>
+    <div>
+      🛒 <span style={{ fontWeight: "bold" }}>0</span>
     </div>
-  )
+  );
 }
 
-export default CartWidget
+export default CartWidget;
