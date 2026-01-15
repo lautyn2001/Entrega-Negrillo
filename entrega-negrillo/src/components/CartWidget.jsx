@@ -1,7 +1,12 @@
+import { useContext } from "react";
+import { CartContext } from "../context/CartContext";
+
 function CartWidget() {
+  const { totalItems } = useContext(CartContext);
+
   return (
     <div>
-      🛒 <span style={{ fontWeight: "bold" }}>0</span>
+      🛒 <span style={{ fontWeight: "bold" }}>{totalItems}</span>
     </div>
   );
 }

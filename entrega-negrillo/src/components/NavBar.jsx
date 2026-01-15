@@ -10,11 +10,14 @@ function NavBar() {
         <Link to="/category/sables">Sables</Link>
         <Link to="/category/armas">Armas</Link>
         <Link to="/category/naves">Naves</Link>
-       <Link to="/category/coleccionables">Coleccionables</Link>
+        <Link to="/category/coleccionables">Coleccionables</Link>
         <Link to="/category/hogar">Hogar</Link>
+        <Link to="/contacto">Contacto</Link>
       </div>
 
-      <CartWidget />
+      <Link to="/cart">
+        <CartWidget />
+      </Link>
     </nav>
   );
 }
